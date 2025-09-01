@@ -5,10 +5,10 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/api/versions', (req, res) => {
-    // Hier würde der Code zum Abrufen der Versionen stehen
+    // Here would be the code to retrieve the versions
     res.send('Versions list');
 });
 
 app.listen(PORT, () => {
-    console.log(`Server läuft auf Port ${PORT}`);
+    console.log(`Server is running on port ${PORT}`);
 });
