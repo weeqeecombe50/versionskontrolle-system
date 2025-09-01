@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get('/api/versions', (req, res) => {
     // Hier würde der Code zum Abrufen der Versionen stehen
-    res.send('Liste der Versionen');
+    res.send('Versions list');
 });
 
 app.listen(PORT, () => {
