@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the version control system! For more information, please visit our documentation.');
+    res.send('Welcome to our version control system! For detailed documentation, please visit our website.');
 });
 
 app.listen(PORT, () => {
